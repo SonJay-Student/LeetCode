@@ -21,9 +21,9 @@ public class TwoSum {
         }
     }
 
-    public int[] solution(int[] nums, int target) {
+    private int[] solution(int[] nums, int target) {
         int [] a ={-1,-1};
-        HashMap<Integer,Integer> allNum=new HashMap<Integer,Integer>();
+        HashMap<Integer,Integer> allNum=new HashMap<>();
         for(int i=0;i<nums.length;i++){
             allNum.put(nums[i],i);
         }
